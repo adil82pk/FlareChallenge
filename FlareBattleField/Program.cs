@@ -63,7 +63,7 @@ namespace FlareBattleShip
             // Displaying the coordinates just to make it easier to review the code.
             WriteLine();
             WriteLine("--Displaying the coordinates just to make it easier to play and review the code.--");
-            WriteLine("-----------------NOTE : X1 = A, X2 = B, X3 = C and so on.....-----------------------");
+            WriteLine("-----------------NOTE : X1 = A, X2 = B, X3 = C and so on.....---------------------");
             Write("My corrdinates: ");
             WriteLine(string.Join(",", myShips.Ship.Select(x => $"x{x.X}-y{x.Y}").ToList()));
             WriteLine("----------------------------------------------------------------------------------");
