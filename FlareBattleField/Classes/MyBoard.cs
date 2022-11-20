@@ -48,7 +48,7 @@ namespace FlareBattleShip.Models
 
                         if (y == 1)
                         {
-                            // Add characters i.e (A, B, C ...) on the Y axis on the 0th postion 
+                            // Add characters i.e (A, B, C ...) on the Y axis on the 0th position 
                             myBoard[x, y - 1] = "|" + row + "|";
                             
                             // increment character 
